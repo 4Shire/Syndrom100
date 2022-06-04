@@ -20,8 +20,8 @@ public class StatisticsServiceTest {
     void findMaxAddingCoverage() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12, 18};
-        long expected = 18;
+        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12, 17};
+        long expected = 17;
 
         long actual = service.findMax(incomesInBillions);
 
